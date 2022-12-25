@@ -1,0 +1,110 @@
+.l-container{
+    width: 35%;
+    margin: 10px 10px 0px 5%;
+    /* border: 1px solid; */
+}
+.l-first{
+    position: relative;
+}
+.l-first img{
+    width: 100%;
+}
+.l-f-second{
+    color:white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.l-second{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.l-second li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px 5px;
+}
+.l-second li i{
+    padding-right: 15px;
+    color: green;
+}
+
+.l-third{
+    box-sizing: border-box;
+    /* border-top: 1px solid; */
+    border-width: 90%;
+    background-color: white;
+    padding: 10px 15px;
+    /* margin-top: 20px; */
+}
+.l-third #line{
+    border-top: 1px solid #aaa;
+    padding-top: 20px;
+}
+.l-third p{
+    padding: 20px 0px;
+}
+.l-third .box{
+    background-color: #ddd;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+}
+.l-third .inside-box{
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    background-color: green;
+}
+.l-third #first{
+    width: 90%;
+}
+.l-third #second{
+    width: 75%;
+}
+.l-third #third{
+    width: 65%;
+}
+.l-third #fourth{
+    width: 50%;
+}
+.l-fourth{
+    margin-top: 45px;
+}
+.l-fourth .box{
+    position: relative;
+    background-color: #ddd;
+    height: 25px;
+    border-radius: 15px;
+}
+.l-fourth span{
+    position: absolute;
+    left: 0;
+    border-radius: 15px;
+    background-color: green;
+    height: 100%;
+}
+.l-fourth #first{
+    width: 100%;
+}
+.l-fourth #second{
+    width: 70%;
+}
+.l-fourth #third{
+    width: 50%;
+}
+.l-container i{
+    padding-right: 20px;
+    color: green;
+}
+@media screen and (max-width:600px) {
+    .l-container{
+        width: 100%;
+        margin: 10px 10px;
+    }
+}
